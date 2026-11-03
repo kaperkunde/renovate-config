@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Inherited by every kaperkunde repository Mend's Renovate is installed on. A repository's own renovate.json wins over anything here.",
+  "extends": ["github>kaperkunde/common-public//renovate/default"],
+  "onboarding": false,
+  "requireConfig": "optional",
+  "baseBranchPatterns": ["/^dev(elop)?$/"]
+}
